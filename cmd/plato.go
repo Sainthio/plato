@@ -19,7 +19,7 @@ func init() {
 var rootCmd = &cobra.Command{
 	Use:   "plato",
 	Short: "这是一个超牛逼的IM系统",
-	Run:   Plato,
+	Run:   Plato, // 执行plato函数
 }
 
 func Execute() {
